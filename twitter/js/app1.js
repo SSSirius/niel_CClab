@@ -1,7 +1,7 @@
 if (!!window.EventSource) {
 
-  var tweetJSON = "http://emojitrack-gostreamer.herokuapp.com/subscribe/details/1F602";
-  var twitterJSON = "http://emojitrack-gostreamer.herokuapp.com/subscribe/eps";
+  var tweetJSON = "https://emojitrack-gostreamer.herokuapp.com/subscribe/details/1F602";
+  var twitterJSON = "https://emojitrack-gostreamer.herokuapp.com/subscribe/eps";
   var countnow, countori, thr, tm, ts;
   countnow = 10000;
 
@@ -21,7 +21,7 @@ if (!!window.EventSource) {
     var lastEventId = event.lastEventId;
 
     countnow++;
-    ts = countnow * 10;
+    ts = countnow * 6;
     tm = ts / 60;
     thr = tm / 60 * 5;
     // console.log(countnow);
