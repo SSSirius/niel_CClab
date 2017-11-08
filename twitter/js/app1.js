@@ -48,7 +48,7 @@ if (!!window.EventSource) {
     tweet_list.append(innerhtml);
     tweet_list_elements = $("li");
     console.log(tweet_list_elements.length);
-    if (tweet_list_elements.length >= 60) {
+    if (tweet_list_elements.length >= 80) {
       tweet_list_elements.first().remove();
     }
 
